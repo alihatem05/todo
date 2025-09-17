@@ -1,0 +1,28 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+
+# SQLite database (local only)
+db.sqlite3
+
+# Django migrations (except __init__.py so Django knows it’s a package)
+todo/migrations/
+!todo/migrations/__init__.py
+
+# Logs
+*.log
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+
+# OS junk
+.DS_Store
+Thumbs.db
